@@ -1,0 +1,3 @@
+create table employee3(empid int primary key , empname varchar(20), department varchar(20), contactno bigint unique, emailid varchar(20));
+INSERT INTO employee3 VALUES(101, "Gopika", "python", 9846275724, "gopika@gmail.com"),(102, "Arshid", "python", 9937689377, "arshid@gmail.com"),(103, "Kiran", "mern", 8976345622, "kiran@yahoo.com"),(104, "Meera", "mern", 8735674836, "meera@yahoo.com"),(105, "Fathima", "data science", 9856378233, "pkd20cs@gecskp.ac.in"),(106, "Anna", "data science", 9865376355, "pkd20cs@gecskp.ac.in"),(107, "Aritha", "software testing", 8976354655, "aritha@yahoo.com"),(108, "Ameya", "software testing", 9867567622, "ameya@gmail.com");
+select * from employee3;

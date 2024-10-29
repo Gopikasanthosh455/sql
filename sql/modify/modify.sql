@@ -1,0 +1,1 @@
+alter table employee modify column salary int;
